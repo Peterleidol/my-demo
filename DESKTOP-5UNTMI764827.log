@@ -1,0 +1,53 @@
+{"level":"info","time":"2022-11-22T19:23:58.410+0700","caller":"cobra@v1.1.1/command.go:854","msg":"LambdaTest Tunnel version: 3.1.25"}
+{"level":"debug","time":"2022-11-22T19:23:58.410+0700","caller":"cmd/lt.go:211","msg":"Starting pipeline....."}
+{"level":"debug","time":"2022-11-22T19:23:58.410+0700","caller":"cmd/lt.go:211","msg":"OS: windows, Arch: amd64"}
+{"level":"debug","time":"2022-11-22T19:23:58.410+0700","caller":"cmd/lt.go:211","msg":"Fetching config"}
+{"level":"debug","time":"2022-11-22T19:23:58.410+0700","caller":"runtime/asm_amd64.s:1594","msg":"Starting tunnel With flags: --user duypeterle3 --key ***** --controller npm --infoAPIPort 64827 --tunnelName DESKTOP-5UNTMI764827 --logFile DESKTOP-5UNTMI764827.log --port 64828"}
+{"level":"debug","time":"2022-11-22T19:23:59.337+0700","caller":"cmd/lt.go:211","msg":"Remote config fetched"}
+{"level":"debug","time":"2022-11-22T19:23:59.549+0700","caller":"core/lifecycle.go:152","msg":"Starting API server"}
+{"level":"debug","time":"2022-11-22T19:23:59.549+0700","caller":"runtime/asm_amd64.s:1594","msg":"Trying on port 22"}
+{"level":"debug","time":"2022-11-22T19:23:59.549+0700","caller":"core/lifecycle.go:138","msg":"Starting sink proxy"}
+{"level":"debug","time":"2022-11-22T19:23:59.549+0700","caller":"runtime/asm_amd64.s:1594","msg":"Trying on port 443"}
+{"level":"debug","time":"2022-11-22T19:23:59.549+0700","caller":"runtime/asm_amd64.s:1594","msg":"Trying over ssh over ws"}
+{"level":"debug","time":"2022-11-22T19:23:59.549+0700","caller":"apiserver/setup.go:173","msg":"Starting API server for tunnel info on port: 64827"}
+{"level":"info","time":"2022-11-22T19:23:59.607+0700","caller":"custom/setup.go:749","msg":"Tunnel binary started on port :64828"}
+{"level":"debug","time":"2022-11-22T19:23:59.793+0700","caller":"runtime/asm_amd64.s:1594","msg":"WSS connection was successful"}
+{"level":"debug","time":"2022-11-22T19:24:00.676+0700","caller":"runtime/asm_amd64.s:1594","msg":"SSH connection over port 443 successful"}
+{"level":"debug","time":"2022-11-22T19:24:00.747+0700","caller":"runtime/asm_amd64.s:1594","msg":"SSH connection over ws successful"}
+{"level":"debug","time":"2022-11-22T19:24:00.893+0700","caller":"runtime/asm_amd64.s:1594","msg":"SSH connection over port 22 successful"}
+{"level":"info","time":"2022-11-22T19:24:00.893+0700","caller":"core/lifecycle.go:115","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"info","time":"2022-11-22T19:24:00.893+0700","caller":"cmd/lt.go:211","msg":"Launching tunnel"}
+{"level":"debug","time":"2022-11-22T19:24:00.893+0700","caller":"core/lifecycle.go:233","msg":"Starting control ws connection at wss://ts.lambdatest.com/monitor"}
+{"level":"debug","time":"2022-11-22T19:24:01.438+0700","caller":"core/lifecycle.go:233","msg":"Control ws channel opened"}
+{"level":"debug","time":"2022-11-22T19:24:01.452+0700","caller":"runtime/asm_amd64.s:1594","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2022-11-22T19:24:02.961+0700","caller":"runtime/asm_amd64.s:1594","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2022-11-22T19:24:02.961+0700","caller":"runtime/asm_amd64.s:1594","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2022-11-22T19:24:02.961+0700","caller":"core/lifecycle.go:283","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2022-11-22T19:24:02.961+0700","caller":"runtime/asm_amd64.s:1594","msg":"controller bus registered"}
+{"level":"debug","time":"2022-11-22T19:24:04.281+0700","caller":"runtime/asm_amd64.s:1594","msg":"Successfully started sshd listener on port: 31522"}
+{"level":"debug","time":"2022-11-22T19:24:04.281+0700","caller":"runtime/asm_amd64.s:1594","msg":"Successfully started sshd listener on port: 29899"}
+{"level":"info","time":"2022-11-22T19:24:04.281+0700","caller":"runtime/asm_amd64.s:1594","msg":"You can start testing now"}
+{"level":"info","time":"2022-11-22T19:24:04.281+0700","caller":"runtime/asm_amd64.s:1594","msg":"Tunnel ID: 2645251"}
+{"level":"debug","time":"2022-11-22T19:24:04.281+0700","caller":"runtime/asm_amd64.s:1594","msg":"Remote Listener Started on Port 26588"}
+{"level":"debug","time":"2022-11-22T19:24:04.296+0700","caller":"runtime/asm_amd64.s:1594","msg":"Successfully started sshd listener on port: 16108"}
+{"level":"debug","time":"2022-11-22T19:24:04.384+0700","caller":"runtime/asm_amd64.s:1594","msg":"Successfully started sshd listener on port: 11383"}
+{"level":"debug","time":"2022-11-22T19:24:04.384+0700","caller":"runtime/asm_amd64.s:1594","msg":"Successfully started sshd listener on port: 7964"}
+{"level":"debug","time":"2022-11-22T19:24:21.429+0700","caller":"runtime/asm_amd64.s:1594","msg":"handling connect request for URL https://www.gstatic.com:443"}
+{"level":"debug","time":"2022-11-22T19:24:24.863+0700","caller":"runtime/asm_amd64.s:1594","msg":"handling connect request for URL https://www.saucedemo.com:443"}
+{"level":"debug","time":"2022-11-22T19:24:25.975+0700","caller":"runtime/asm_amd64.s:1594","msg":"handling connect request for URL https://www.saucedemo.com:443"}
+{"level":"debug","time":"2022-11-22T19:24:25.991+0700","caller":"runtime/asm_amd64.s:1594","msg":"handling connect request for URL https://www.saucedemo.com:443"}
+{"level":"debug","time":"2022-11-22T19:24:27.972+0700","caller":"runtime/asm_amd64.s:1594","msg":"handling connect request for URL https://www.saucedemo.com:443"}
+{"level":"debug","time":"2022-11-22T19:24:28.005+0700","caller":"runtime/asm_amd64.s:1594","msg":"handling connect request for URL https://www.saucedemo.com:443"}
+{"level":"debug","time":"2022-11-22T19:24:28.005+0700","caller":"runtime/asm_amd64.s:1594","msg":"handling connect request for URL https://www.saucedemo.com:443"}
+{"level":"debug","time":"2022-11-22T19:24:28.014+0700","caller":"runtime/asm_amd64.s:1594","msg":"handling connect request for URL https://www.saucedemo.com:443"}
+{"level":"debug","time":"2022-11-22T19:24:28.090+0700","caller":"runtime/asm_amd64.s:1594","msg":"handling connect request for URL https://www.saucedemo.com:443"}
+{"level":"debug","time":"2022-11-22T19:24:28.202+0700","caller":"runtime/asm_amd64.s:1594","msg":"handling connect request for URL https://www.saucedemo.com:443"}
+{"level":"debug","time":"2022-11-22T19:24:28.331+0700","caller":"runtime/asm_amd64.s:1594","msg":"handling connect request for URL https://www.saucedemo.com:443"}
+{"level":"debug","time":"2022-11-22T19:24:28.736+0700","caller":"runtime/asm_amd64.s:1594","msg":"handling connect request for URL https://www.saucedemo.com:443"}
+{"level":"debug","time":"2022-11-22T19:24:28.736+0700","caller":"runtime/asm_amd64.s:1594","msg":"handling connect request for URL https://www.saucedemo.com:443"}
+{"level":"debug","time":"2022-11-22T19:24:40.365+0700","caller":"runtime/asm_amd64.s:1594","msg":"Shutting down the server"}
+{"level":"debug","time":"2022-11-22T19:24:40.365+0700","caller":"cmd/lt.go:211","msg":"Context cancelled"}
+{"level":"debug","time":"2022-11-22T19:24:40.365+0700","caller":"custom/setup.go:749","msg":"Exiting the sink proxy"}
+{"level":"info","time":"2022-11-22T19:24:40.365+0700","caller":"cmd/lt.go:211","msg":"Stopping tunnel"}
+{"level":"debug","time":"2022-11-22T19:24:40.366+0700","caller":"runtime/asm_amd64.s:1594","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2022-11-22T19:24:40.366+0700","caller":"runtime/asm_amd64.s:1594","msg":"Write loop ended for control channel"}
