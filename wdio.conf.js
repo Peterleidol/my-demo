@@ -11,8 +11,8 @@ exports.config = {
  
     capabilities: [{   
  
-        name: "Page Object Pattern",
-        build: "wdio-PageObjectPattern",
+        name: "Demo",
+        build: "Peter",
         maxInstances: 5,
         browserName: 'chrome',
         version:"64.0",

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run login.spec.js"
+    "test": "npx wdio"
   },
   "keywords": [],
   "author": "",

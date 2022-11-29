@@ -1,4 +1,4 @@
-//information.page.js
+//login.page.js
 
 const Page = require ('./page');
 
